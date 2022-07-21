@@ -1,0 +1,387 @@
+-- Made by Blaze#7764
+
+local ScreenGui = Instance.new("ScreenGui")
+local GuiMain = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Topstrip = Instance.new("Frame")
+local Options = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local BigPaintball = Instance.new("TextButton")
+local Bedwars = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local KAT = Instance.new("TextButton")
+local Hoopz = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local MuscleLegends = Instance.new("TextButton")
+local PhantomForces = Instance.new("TextButton")
+local RaiseAFloppa = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local StarvingArtists = Instance.new("TextButton")
+local Strucid = Instance.new("TextButton")
+local TOH = Instance.new("TextButton")
+local ESP = Instance.new("TextButton")
+local WimbleWorld = Instance.new("TextButton")
+local WordBomb = Instance.new("TextButton")
+local SpeedCity = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local hello = Instance.new("TextLabel")
+local tag = Instance.new("TextLabel")
+local ownership = Instance.new("TextLabel")
+local desc = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+GuiMain.Name = "GuiMain"
+GuiMain.Parent = ScreenGui
+GuiMain.Active = true
+GuiMain.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+GuiMain.Position = UDim2.new(0.373672307, 0, 0.208078355, 0)
+GuiMain.Size = UDim2.new(0, 450, 0, 450)
+GuiMain.Active=true
+GuiMain.Draggable=true
+
+Title.Name = "Title"
+Title.Parent = GuiMain
+Title.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Title.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 157, 0, 0)
+Title.Size = UDim2.new(0, 293, 0, 53)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "Blaze Hub"
+Title.TextColor3 = Color3.fromRGB(255, 0, 4)
+Title.TextSize = 46.000
+Title.TextStrokeColor3 = Color3.fromRGB(170, 0, 2)
+Title.TextWrapped = true
+
+Topstrip.Name = "Topstrip"
+Topstrip.Parent = GuiMain
+Topstrip.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Topstrip.BorderColor3 = Color3.fromRGB(35, 35, 35)
+Topstrip.BorderSizePixel = 0
+Topstrip.Size = UDim2.new(0, 157, 0, 53)
+
+Options.Name = "Options"
+Options.Parent = GuiMain
+Options.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Options.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Options.BorderSizePixel = 0
+Options.Size = UDim2.new(0, 157, 0, 53)
+Options.Font = Enum.Font.GothamBold
+Options.Text = "Options"
+Options.TextColor3 = Color3.fromRGB(255, 0, 4)
+Options.TextSize = 35.000
+Options.TextStrokeColor3 = Color3.fromRGB(170, 0, 2)
+Options.TextWrapped = true
+
+ScrollingFrame.Parent = GuiMain
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.11777778, 0)
+ScrollingFrame.Size = UDim2.new(0, 157, 0, 397)
+
+BigPaintball.Name = "Big Paintball"
+BigPaintball.Parent = ScrollingFrame
+BigPaintball.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+BigPaintball.BorderSizePixel = 0
+BigPaintball.Position = UDim2.new(0, 0, 0.0555555485, 0)
+BigPaintball.Size = UDim2.new(0, 157, 0, 50)
+BigPaintball.Font = Enum.Font.GothamBold
+BigPaintball.Text = "Big Paintball"
+BigPaintball.TextColor3 = Color3.fromRGB(170, 0, 0)
+BigPaintball.TextSize = 20.000
+BigPaintball.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/bigpaintball/main/source'),true))()
+end)
+
+Bedwars.Name = "Bedwars"
+Bedwars.Parent = ScrollingFrame
+Bedwars.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Bedwars.BorderSizePixel = 0
+Bedwars.Position = UDim2.new(0, 0, -3.7252903e-09, 0)
+Bedwars.Size = UDim2.new(0, 157, 0, 50)
+Bedwars.Font = Enum.Font.GothamBold
+Bedwars.Text = "Bedwars"
+Bedwars.TextColor3 = Color3.fromRGB(170, 0, 0)
+Bedwars.TextSize = 20.000
+Bedwars.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = ScrollingFrame
+Jailbreak.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Jailbreak.BorderSizePixel = 0
+Jailbreak.Position = UDim2.new(0, 0, 0.111111119, 0)
+Jailbreak.Size = UDim2.new(0, 157, 0, 50)
+Jailbreak.Font = Enum.Font.GothamBold
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(170, 0, 0)
+Jailbreak.TextSize = 20.000
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V3/main/Main"))()
+end)
+
+KAT.Name = "KAT"
+KAT.Parent = ScrollingFrame
+KAT.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+KAT.BorderSizePixel = 0
+KAT.Position = UDim2.new(0, 0, 0.166666672, 0)
+KAT.Size = UDim2.new(0, 157, 0, 50)
+KAT.Font = Enum.Font.GothamBold
+KAT.Text = "KAT"
+KAT.TextColor3 = Color3.fromRGB(170, 0, 0)
+KAT.TextSize = 20.000
+KAT.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+
+Hoopz.Name = "Hoopz"
+Hoopz.Parent = ScrollingFrame
+Hoopz.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Hoopz.BorderSizePixel = 0
+Hoopz.Position = UDim2.new(0, 0, 0.222222239, 0)
+Hoopz.Size = UDim2.new(0, 157, 0, 50)
+Hoopz.Font = Enum.Font.GothamBold
+Hoopz.Text = "Hoopz"
+Hoopz.TextColor3 = Color3.fromRGB(170, 0, 0)
+Hoopz.TextSize = 20.000
+Hoopz.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/hoopz/main/source'),true))()
+end)
+
+MM2.Name = "MM2"
+MM2.Parent = ScrollingFrame
+MM2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+MM2.BorderSizePixel = 0
+MM2.Position = UDim2.new(0, 0, 0.277777791, 0)
+MM2.Size = UDim2.new(0, 157, 0, 50)
+MM2.Font = Enum.Font.GothamBold
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(170, 0, 0)
+MM2.TextSize = 20.000
+MM2.MouseButton1Down:connect(function()
+	getgenv().mainKey = "nil"
+
+	local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+MuscleLegends.Name = "Muscle Legends"
+MuscleLegends.Parent = ScrollingFrame
+MuscleLegends.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+MuscleLegends.BorderSizePixel = 0
+MuscleLegends.Position = UDim2.new(0, 0, 0.333333343, 0)
+MuscleLegends.Size = UDim2.new(0, 157, 0, 50)
+MuscleLegends.Font = Enum.Font.GothamBold
+MuscleLegends.Text = "Muscle Legends"
+MuscleLegends.TextColor3 = Color3.fromRGB(170, 0, 0)
+MuscleLegends.TextSize = 17.000
+MuscleLegends.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/littlegui/main/MuscleLegends"))()
+end)
+
+PhantomForces.Name = "Phantom Forces"
+PhantomForces.Parent = ScrollingFrame
+PhantomForces.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+PhantomForces.BorderSizePixel = 0
+PhantomForces.Position = UDim2.new(0, 0, 0.388888925, 0)
+PhantomForces.Size = UDim2.new(0, 157, 0, 50)
+PhantomForces.Font = Enum.Font.GothamBold
+PhantomForces.Text = "Phantom Forces"
+PhantomForces.TextColor3 = Color3.fromRGB(170, 0, 0)
+PhantomForces.TextSize = 20.000
+PhantomForces.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	assert(Drawing, 'exploit not supported')
+end)
+
+RaiseAFloppa.Name = "Raise A Floppa"
+RaiseAFloppa.Parent = ScrollingFrame
+RaiseAFloppa.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+RaiseAFloppa.BorderSizePixel = 0
+RaiseAFloppa.Position = UDim2.new(0, 0, 0.444444448, 0)
+RaiseAFloppa.Size = UDim2.new(0, 157, 0, 50)
+RaiseAFloppa.Font = Enum.Font.GothamBold
+RaiseAFloppa.Text = "Raise A Floppa"
+RaiseAFloppa.TextColor3 = Color3.fromRGB(170, 0, 0)
+RaiseAFloppa.TextSize = 17.000
+RaiseAFloppa.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://nicuse.repl.co/Scripts/OtherScripts/raise%20a%20floppa.lua", true))()
+end)
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = ScrollingFrame
+PrisonLife.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+PrisonLife.BorderSizePixel = 0
+PrisonLife.Position = UDim2.new(0, 0, 0.388888925, 0)
+PrisonLife.Size = UDim2.new(0, 157, 0, 50)
+PrisonLife.Font = Enum.Font.GothamBold
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(170, 0, 0)
+PrisonLife.TextSize = 20.000
+PrisonLife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/prisonlife/main/source'),true))()
+end)
+
+StarvingArtists.Name = "Starving Artists"
+StarvingArtists.Parent = ScrollingFrame
+StarvingArtists.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+StarvingArtists.BorderSizePixel = 0
+StarvingArtists.Position = UDim2.new(0, 0, 0.49888894, 0)
+StarvingArtists.Size = UDim2.new(0, 157, 0, 50)
+StarvingArtists.Font = Enum.Font.GothamBold
+StarvingArtists.Text = "Starving Artists"
+StarvingArtists.TextColor3 = Color3.fromRGB(170, 0, 0)
+StarvingArtists.TextSize = 17.000
+StarvingArtists.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
+end)
+
+Strucid.Name = "Strucid"
+Strucid.Parent = ScrollingFrame
+Strucid.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Strucid.BorderSizePixel = 0
+Strucid.Position = UDim2.new(0, 0, 0.554444432, 0)
+Strucid.Size = UDim2.new(0, 157, 0, 50)
+Strucid.Font = Enum.Font.GothamBold
+Strucid.Text = "Strucid"
+Strucid.TextColor3 = Color3.fromRGB(170, 0, 0)
+Strucid.TextSize = 20.000
+Strucid.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+TOH.Name = "TOH"
+TOH.Parent = ScrollingFrame
+TOH.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TOH.BorderSizePixel = 0
+TOH.Position = UDim2.new(0, 0, 0.610000014, 0)
+TOH.Size = UDim2.new(0, 157, 0, 50)
+TOH.Font = Enum.Font.GothamBold
+TOH.Text = "TOH"
+TOH.TextColor3 = Color3.fromRGB(170, 0, 0)
+TOH.TextSize = 20.000
+TOH.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+
+ESP.Name = "ESP"
+ESP.Parent = ScrollingFrame
+ESP.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0, 0, 0.665555596, 0)
+ESP.Size = UDim2.new(0, 157, 0, 50)
+ESP.Font = Enum.Font.GothamBold
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(170, 0, 0)
+ESP.TextSize = 20.000
+ESP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/esp/main/source'),true))()
+end)
+
+WimbleWorld.Name = "WimbleWorld"
+WimbleWorld.Parent = ScrollingFrame
+WimbleWorld.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+WimbleWorld.BorderSizePixel = 0
+WimbleWorld.Position = UDim2.new(0, 0, 0.721111178, 0)
+WimbleWorld.Size = UDim2.new(0, 157, 0, 50)
+WimbleWorld.Font = Enum.Font.GothamBold
+WimbleWorld.Text = "WimbleWorld"
+WimbleWorld.TextColor3 = Color3.fromRGB(170, 0, 0)
+WimbleWorld.TextSize = 20.000
+WimbleWorld.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/wimbleworldscript/main/source'),true))()
+end)
+
+WordBomb.Name = "WordBomb"
+WordBomb.Parent = ScrollingFrame
+WordBomb.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+WordBomb.BorderSizePixel = 0
+WordBomb.Position = UDim2.new(0, 0, 0.77666676, 0)
+WordBomb.Size = UDim2.new(0, 157, 0, 50)
+WordBomb.Font = Enum.Font.GothamBold
+WordBomb.Text = "WordBomb"
+WordBomb.TextColor3 = Color3.fromRGB(170, 0, 0)
+WordBomb.TextSize = 20.000
+WordBomb.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EGX3/EGX3/main/EGX3"))()
+end)
+
+SpeedCity.Name = "Speed City"
+SpeedCity.Parent = ScrollingFrame
+SpeedCity.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+SpeedCity.BorderSizePixel = 0
+SpeedCity.Position = UDim2.new(0, 0, 0.832222342, 0)
+SpeedCity.Size = UDim2.new(0, 157, 0, 50)
+SpeedCity.Font = Enum.Font.GothamBold
+SpeedCity.Text = "Speed City"
+SpeedCity.TextColor3 = Color3.fromRGB(170, 0, 0)
+SpeedCity.TextSize = 20.000
+SpeedCity.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/speedcity/main/source'),true))()
+end)
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = ScrollingFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Arsenal.BorderSizePixel = 0
+Arsenal.Position = UDim2.new(0, 0, 0.887777925, 0)
+Arsenal.Size = UDim2.new(0, 157, 0, 50)
+Arsenal.Font = Enum.Font.GothamBold
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(170, 0, 0)
+Arsenal.TextSize = 20.000
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+
+hello.Name = "hello"
+hello.Parent = ScrollingFrame
+hello.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+hello.BorderSizePixel = 0
+hello.Position = UDim2.new(0.0700636953, 0, 0.951483667, 0)
+hello.Size = UDim2.new(0, 135, 0, 33)
+hello.Font = Enum.Font.GothamBold
+hello.Text = "Blaze#7764 was here :)"
+hello.TextColor3 = Color3.fromRGB(255, 255, 255)
+hello.TextSize = 14.000
+hello.TextWrapped = true
+
+tag.Name = "tag"
+tag.Parent = GuiMain
+tag.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+tag.BorderSizePixel = 0
+tag.Position = UDim2.new(0.348888874, 0, 0.902967393, 0)
+tag.Size = UDim2.new(0, 293, 0, 43)
+tag.Font = Enum.Font.GothamBold
+tag.Text = "Script hub made by Blaze#7764 (dm for support)"
+tag.TextColor3 = Color3.fromRGB(255, 255, 255)
+tag.TextSize = 17.000
+tag.TextWrapped = true
+
+ownership.Name = "ownership"
+ownership.Parent = GuiMain
+ownership.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+ownership.BorderSizePixel = 0
+ownership.Position = UDim2.new(0.362222224, 0, 0.553333461, 0)
+ownership.Size = UDim2.new(0, 281, 0, 153)
+ownership.Font = Enum.Font.GothamBold
+ownership.Text = "Most scripts not owned by me. I have only made the script for Big Paintball and Wimbleworld. Please report here if any bugs or issues are found either with the scripts or the gui itself."
+ownership.TextColor3 = Color3.fromRGB(170, 0, 0)
+ownership.TextSize = 19.000
+ownership.TextWrapped = true
+
+desc.Name = "desc"
+desc.Parent = GuiMain
+desc.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+desc.BorderSizePixel = 0
+desc.Position = UDim2.new(0.362222224, 0, 0.11777778, 0)
+desc.Size = UDim2.new(0, 280, 0, 196)
+desc.Font = Enum.Font.GothamBold
+desc.Text = "To execute a script, you must be in the game desired to execute the script you want. When you are in the game, simply click on the button on the left displaying the name of the game, and the script will execute. If any errors occur,  follow as said below."
+desc.TextColor3 = Color3.fromRGB(170, 0, 0)
+desc.TextSize = 19.000
+desc.TextWrapped = true
