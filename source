@@ -168,20 +168,6 @@ MM2.MouseButton1Down:connect(function()
 	local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 end)
 
-MuscleLegends.Name = "Muscle Legends"
-MuscleLegends.Parent = ScrollingFrame
-MuscleLegends.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
-MuscleLegends.BorderSizePixel = 0
-MuscleLegends.Position = UDim2.new(0, 0, 0.333333343, 0)
-MuscleLegends.Size = UDim2.new(0, 157, 0, 50)
-MuscleLegends.Font = Enum.Font.GothamBold
-MuscleLegends.Text = "Muscle Legends"
-MuscleLegends.TextColor3 = Color3.fromRGB(170, 0, 0)
-MuscleLegends.TextSize = 17.000
-MuscleLegends.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/littlegui/main/MuscleLegends"))()
-end)
-
 PhantomForces.Name = "Phantom Forces"
 PhantomForces.Parent = ScrollingFrame
 PhantomForces.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
