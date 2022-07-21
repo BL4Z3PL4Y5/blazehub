@@ -1,5 +1,3 @@
--- Made by Blaze#7764
-
 local ScreenGui = Instance.new("ScreenGui")
 local GuiMain = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
@@ -81,6 +79,7 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0, 0, 0.11777778, 0)
 ScrollingFrame.Size = UDim2.new(0, 157, 0, 397)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
 
 BigPaintball.Name = "Big Paintball"
 BigPaintball.Parent = ScrollingFrame
@@ -164,6 +163,7 @@ MM2.TextColor3 = Color3.fromRGB(170, 0, 0)
 MM2.TextSize = 20.000
 MM2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/eclipsemm2/main/source'),true))()
+end)
 
 PhantomForces.Name = "Phantom Forces"
 PhantomForces.Parent = ScrollingFrame
@@ -197,7 +197,7 @@ PrisonLife.Name = "Prison Life"
 PrisonLife.Parent = ScrollingFrame
 PrisonLife.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 PrisonLife.BorderSizePixel = 0
-PrisonLife.Position = UDim2.new(0, 0, 0.332, 0)
+PrisonLife.Position = UDim2.new(0, 0, 0.332222253, 0)
 PrisonLife.Size = UDim2.new(0, 157, 0, 50)
 PrisonLife.Font = Enum.Font.GothamBold
 PrisonLife.Text = "Prison Life"
@@ -316,7 +316,6 @@ Arsenal.Text = "Arsenal"
 Arsenal.TextColor3 = Color3.fromRGB(170, 0, 0)
 Arsenal.TextSize = 20.000
 Arsenal.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
 end)
 
