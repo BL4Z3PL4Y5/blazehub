@@ -29,7 +29,7 @@ local tag = Instance.new("TextLabel")
 local ownership = Instance.new("TextLabel")
 local desc = Instance.new("TextLabel")
 
-ScreenGui.Parent = game.CoreGui
+ScreenGui.Parent = game.CoreGui:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 GuiMain.Name = "GuiMain"
@@ -201,7 +201,7 @@ PrisonLife.Name = "Prison Life"
 PrisonLife.Parent = ScrollingFrame
 PrisonLife.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 PrisonLife.BorderSizePixel = 0
-PrisonLife.Position = UDim2.new(0, 0, 0.388888925, 0)
+PrisonLife.Position = UDim2.new(0, 0, 0.332, 0)
 PrisonLife.Size = UDim2.new(0, 157, 0, 50)
 PrisonLife.Font = Enum.Font.GothamBold
 PrisonLife.Text = "Prison Life"
