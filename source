@@ -137,18 +137,18 @@ KAT.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
 
-Hoopz.Name = "Hoopz"
+Hoopz.Name = "Soon1"
 Hoopz.Parent = ScrollingFrame
 Hoopz.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Hoopz.BorderSizePixel = 0
 Hoopz.Position = UDim2.new(0, 0, 0.222222239, 0)
 Hoopz.Size = UDim2.new(0, 157, 0, 50)
 Hoopz.Font = Enum.Font.GothamBold
-Hoopz.Text = "Hoopz"
+Hoopz.Text = "Soon"
 Hoopz.TextColor3 = Color3.fromRGB(170, 0, 0)
 Hoopz.TextSize = 20.000
 Hoopz.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/hoopz/main/source'),true))()
+	--script here
 end)
 
 MM2.Name = "MM2"
@@ -277,18 +277,18 @@ WimbleWorld.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/BL4Z3PL4Y5/wimbleworldscript/main/source'),true))()
 end)
 
-WordBomb.Name = "WordBomb"
+WordBomb.Name = "Soon2"
 WordBomb.Parent = ScrollingFrame
 WordBomb.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 WordBomb.BorderSizePixel = 0
 WordBomb.Position = UDim2.new(0, 0, 0.77666676, 0)
 WordBomb.Size = UDim2.new(0, 157, 0, 50)
 WordBomb.Font = Enum.Font.GothamBold
-WordBomb.Text = "WordBomb"
+WordBomb.Text = "Soon"
 WordBomb.TextColor3 = Color3.fromRGB(170, 0, 0)
 WordBomb.TextSize = 20.000
 WordBomb.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/EGX3/EGX3/main/EGX3"))()
+	--script here
 end)
 
 SpeedCity.Name = "Speed City"
