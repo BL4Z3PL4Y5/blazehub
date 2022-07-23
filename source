@@ -137,18 +137,18 @@ KAT.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
 
-Hoopz.Name = "Soon1"
+Hoopz.Name = "Pet Sim"
 Hoopz.Parent = ScrollingFrame
 Hoopz.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Hoopz.BorderSizePixel = 0
 Hoopz.Position = UDim2.new(0, 0, 0.222222239, 0)
 Hoopz.Size = UDim2.new(0, 157, 0, 50)
 Hoopz.Font = Enum.Font.GothamBold
-Hoopz.Text = "Soon"
+Hoopz.Text = "Pet Sim"
 Hoopz.TextColor3 = Color3.fromRGB(170, 0, 0)
 Hoopz.TextSize = 20.000
 Hoopz.MouseButton1Down:connect(function()
-	--script here
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/Ghosthub.lua"))()
 end)
 
 MM2.Name = "MM2"
